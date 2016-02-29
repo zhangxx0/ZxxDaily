@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme.
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style> -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- translucent system bars -->
+        <!--        <item name="android:windowTranslucentStatus">true</item>
+                <item name="android:windowTranslucentNavigation">true</item>-->
+        <!--选中状态icon的颜色和字体颜色-->
+        <!--<item name="android:fitsSystemWindows">true</item>-->
+        <item name="colorPrimary">@android:color/holo_blue_dark</item>
+        <item name="colorPrimaryDark">@android:color/holo_blue_dark</item>
+        <item name="colorAccent">@android:color/holo_green_light</item>
+        <!--正常状态下字体颜色和icon颜色-->
+        <item name="android:textColorPrimary">@android:color/white</item>
+
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="MyActionBar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <!--<item name="android:actionOverflowButtonStyle">@style/MyOverflowButton</item>-->
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+</resources>
